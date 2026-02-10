@@ -1,4 +1,4 @@
-# Telegram 双向聊天机器人（Cloudflare Worker 版）
+# Telegram 双向聊天机器人（Cloudflare Worker 版）点个小星星呗
 
 这是一个基于 **Cloudflare Workers** 的轻量级 Telegram 机器人，支持访客匿名发送消息给管理员，管理员可回复、拉黑用户或设置验证暗号，所有逻辑运行在边缘网络，无需服务器。
 
