@@ -2,7 +2,7 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
-    if (url.pathname === "/") return new Response("\u6b22\u8fce\u4f7f\u7528\x74\u0067\u53cc\u5411\u804a\u5929\u673a\u5668\u4eba\uff1a\x68\u0074\u0074\x70\x73\u003a\x2f\x2f\u0067\x69\u0074\x68\u0075\x62\u002e\u0063\u006f\u006d\u002f\x50\u0045\u0072\x6f\x6b\u0079\x2f\u0063\u0066\u002d\u0074\x67\u002d\x62\u006f\u0074", { status: 200 });
+    if (url.pathname === "/") return new Response("\u6b22\u8fce\u4f7f\u7528\u0074\x67\u53cc\u5411\u804a\u5929\u673a\u5668\u4eba\uff1a\x68\x74\u0074\u0070\u0073\x3a\x2f\x2f\x67\u0069\x74\x68\u0075\u0062\x2e\u0063\u006f\x6d\u002f\u0066\x61\x73\u0063\x6d\x65\x72\u002f\u0074\u0065\u006c\u0065\u0067\x72\u0061\u006d\u002d\u0063\u0068\u0061\x74\x2d\x62\x6f\x74\x2d\x62\u0079\x2d\x63\x66\x2d\u0077\u006f\u0072\x6b\u0065\x72", { status: 200 });
 
     if (url.pathname === "/connect/" + env.WEBHOOK_UUID) {
       const workerDomain = request.headers.get("host");
